@@ -16,4 +16,4 @@ class Song
     song #returns the song instance above
 end
 
-
+def self.new_by_name(name)
