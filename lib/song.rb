@@ -45,7 +45,8 @@ def self.alphabetical(name)
 end
 
 def self.new_from_filename(filename)
-  file_array = filename.sub!()
+  file_array = filename.sub!(/.mp3/, '').split(" - ")
+  song = self.create
 
 
 
