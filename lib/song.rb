@@ -29,5 +29,7 @@ def self.create_by_name(name)
 end 
 
 def self.find_by_name(name)
-  song = self.all.select {|songname| songname.name == name}
+  self.all.find do |song| song.name == name
+end
+end
   
