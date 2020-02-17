@@ -52,7 +52,7 @@ def self.new_from_filename(filename)
   song
 end
 
-def self.new_from_filename(filename)
+def self.create_from_filename(filename)
   file_array = filename.sub!(/.mp3/, '').split(" - ")
   song = self.create
   song.name = file_array[1]
