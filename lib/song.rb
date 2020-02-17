@@ -45,7 +45,7 @@ def self.alphabetical(name)
 end
 
 def self.new_from_filename(filename)
-  
+  song
 
 
 
