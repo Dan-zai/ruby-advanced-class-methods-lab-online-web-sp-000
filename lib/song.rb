@@ -64,7 +64,8 @@ def self.destroy_all
   self.all.clear
 end
 
-
+#YYYYYEEEEEEEEEEEEEEEEEEEEESSSSSSSSSSSSSSSSSSSSS!!!!! 
+# quick note, this lab was a nightmare.
 
 end
   
