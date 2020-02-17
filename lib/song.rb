@@ -41,7 +41,8 @@ end
 
 
 def self.alphabetical(name)
-  self.all.sort_by? |name
+  self.all.sort_by? {|song| song.name}
+end
 
 
 
