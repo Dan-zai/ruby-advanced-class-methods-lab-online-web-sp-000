@@ -17,9 +17,9 @@ class Song
 end
 
 def self.new_by_name(name)
-  song = self.new 
-  song.name = name
-  song
+  song = self.new #initializes a song
+  song.name = name #sets the property of the instance via the argument passed
+  song # returns
 end 
 
 def self.create_by_name(name)
