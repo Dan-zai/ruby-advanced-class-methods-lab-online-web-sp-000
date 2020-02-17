@@ -11,7 +11,9 @@ class Song
   end
   
   def self.create
-    song = self.new 
-    song.save
-    song
+    song = self.new #initializes a song
+    song.save #uses the save method via the .all class method
+    song #returns the song instance above
 end
+
+
